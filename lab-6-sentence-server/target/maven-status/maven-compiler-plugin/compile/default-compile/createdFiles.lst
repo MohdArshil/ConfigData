@@ -1,0 +1,11 @@
+com/ei/Application.class
+com/ei/service/SentenceServiceImpl.class
+com/ei/dao/SubjectClient.class
+com/ei/service/SentenceService.class
+com/ei/dao/VerbClient.class
+com/ei/controller/SentenceController.class
+com/ei/dao/AdjectiveClient.class
+com/ei/domain/Word.class
+com/ei/dao/ArticleClient.class
+com/ei/dao/AdjectiveClient$HystrixClientFallback.class
+com/ei/dao/NounClient.class

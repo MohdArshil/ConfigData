@@ -1,0 +1,6 @@
+---
+spring:
+  application:
+    name: sentence
+server:
+  port: 8020
