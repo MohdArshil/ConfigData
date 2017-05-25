@@ -1,10 +1,6 @@
-/home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/dao/ArticleClient.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/Application.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/service/SentenceServiceImpl.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/controller/SentenceController.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/service/SentenceService.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/domain/Word.java
-/home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/dao/VerbClient.java
-/home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/dao/SubjectClient.java
 /home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/dao/AdjectiveClient.java
-/home/mohd/Work/Learning/UDemy/MS/Workspace/lab-6-sentence-server/src/main/java/com/ei/dao/NounClient.java

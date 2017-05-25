@@ -6,18 +6,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.ei.domain.Word;
 
-@FeignClient("ADJECTIVE")
+@FeignClient("LAB-4-ADJECTIVE")
 public interface AdjectiveClient {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public Word getWord();
-
-	static class HystrixClientFallback implements AdjectiveClient {
-
-		public Word getWord() {
-
-			return new Word();
-
-		}
-	}
 }

@@ -18,9 +18,7 @@ public class SentenceController {
 	 */
 	@RequestMapping("/sentence")
 	public @ResponseBody String getSentence() {
-		return "<h3>Some Sentences</h3><br/>" + sentenceService.buildSentence() + "<br/><br/>"
-				+ sentenceService.buildSentence() + "<br/><br/>" + sentenceService.buildSentence() + "<br/><br/>"
-				+ sentenceService.buildSentence() + "<br/><br/>" + sentenceService.buildSentence() + "<br/><br/>";
+		return "<h3>Some Sentences</h3><br/>" + sentenceService.buildSentence() + "<br/>";
 	}
 
 }

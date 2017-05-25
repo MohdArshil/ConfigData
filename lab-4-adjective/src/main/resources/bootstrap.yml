@@ -1,4 +1,4 @@
+---
 spring:
-  profiles: adjective
   application:
     name: lab-4-adjective

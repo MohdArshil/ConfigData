@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WordController {
 
-	@Value("${words}") String words;
-	
+	@Value("${words}")
+	String words;
+
 	@RequestMapping("/")
 	public @ResponseBody String getWord() {
 		String[] wordArray = words.split(",");
-		int i = (int)Math.round(Math.random() * (wordArray.length - 1));
+		int i = (int) Math.round(Math.random() * (wordArray.length - 1));
 		return wordArray[i];
 	}
 }

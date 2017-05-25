@@ -19,14 +19,15 @@ public class SentenceController {
 
 	@RequestMapping("/sentence")
 	public @ResponseBody String getSentence() {
-		return String.format("%s %s %s %s %s.", getWord("LAB-4-SUBJECT"), getWord("LAB-4-VERB"),
-				getWord("LAB-4-ARTICLE"), getWord("LAB-4-ADJECTIVE"), getWord("LAB-4-NOUN"));
-		// return String.format("%s", getWord("LAB-4-VERB"));
+		// return String.format("%s %s %s %s %s.", getWord("LAB-4-SUBJECT"),
+		// getWord("LAB-4-VERB"),
+		// getWord("LAB-4-ARTICLE"), getWord("LAB-4-ADJECTIVE"),
+		// getWord("LAB-4-NOUN"));
+		return String.format("%s %s %s.", getWord("LAB-4-ARTICLE"), getWord("LAB-4-ADJECTIVE"), getWord("LAB-4-NOUN"));
 	}
 
 	public String getWord(String service) {
 		List<ServiceInstance> list = client.getInstances(service);
-		System.out.println("LISTTTTTTTTTTTT " + list);
 		if (list != null && list.size() > 0) {
 			URI uri = list.get(0).getUri();
 			if (uri != null) {
